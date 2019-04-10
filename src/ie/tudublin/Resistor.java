@@ -18,10 +18,11 @@ public class Resistor extends PApplet {
         ones = value - ((hundreds * 100)  + (tens * 10));
     }
 
-    Table resistor;
+    
 
     public void setup() {
-      
+        Table resistor;
+        
 		resistor = loadTable("resistors.csv", "header");
     
       println(resistor.getRowCount() + " total rows in table"); 

@@ -48,5 +48,9 @@ public class UI extends PApplet
 	
 	public void draw()
 	{			
+		rect(150,50,120,150);
+		rect(150,200,120,150);
+		rect(150,350,120,150);
+		rect(150,500,120,150);
 	}
 }
