@@ -18,6 +18,22 @@ public class UI extends PApplet
 		println(ones);
 	}
 
+	color<Colour>();
+
+	public void loadColours(){
+
+	}
+
+	public void printColours(){
+
+	}
+
+	public Colour findColor(int value){
+
+	}
+
+	resistors<Resistor>();
+
 	public void settings()
 	{
 		size(500, 800);
