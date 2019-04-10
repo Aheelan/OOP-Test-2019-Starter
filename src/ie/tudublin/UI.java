@@ -18,7 +18,7 @@ public class UI extends PApplet
 		println(ones);
 	}
 
-	color<Colour>();
+	ArrayList<Colour> color = new ArrayList<Colour>();
 
 	public void loadColours(){
 
@@ -32,7 +32,7 @@ public class UI extends PApplet
 
 	}
 
-	resistors<Resistor>();
+	ArrayList<Resistor> resistors = new ArrayList<Resistor>();
 
 	public void settings()
 	{
