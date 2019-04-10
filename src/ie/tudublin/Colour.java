@@ -7,8 +7,23 @@ import processing.data.*;
 
 public class Colour extends PApplet {
 
-}
+    public void colour(){
 
-public void setup() {
+    }
 
+    public int[] rgb;
+    public int value;
+    private String colour;
+
+    public void getColour(){
+
+    }
+
+    public String toString(){
+
+    }
+    
+    public void setup() {
+
+    }
 }
