@@ -28,8 +28,8 @@ public class UI extends PApplet
 
 	}
 
-	public Colour findColor(int value){
-
+	public void findColor(int value){ //color
+		
 	}
 
 	ArrayList<Resistor> resistors = new ArrayList<Resistor>();
