@@ -32,7 +32,10 @@ public class UI extends PApplet
 		
 	}
 
-	ArrayList<Resistor> resistors = new ArrayList<Resistor>();
+    public void setup() {
+		
+		ArrayList<Resistor> resistors = new ArrayList<Resistor>();
+	}
 
 	public void settings()
 	{
@@ -41,10 +44,6 @@ public class UI extends PApplet
 		separate(381);
 		separate(1);
 		separate(92);
-	}
-
-	public void setup() 
-	{
 	}
 	
 	public void draw()
